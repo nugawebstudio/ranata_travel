@@ -23,3 +23,9 @@ $hook['post_system'] = array(
     'filename' => 'auth_sess_check.php',
     'filepath' => 'third_party/community_auth/hooks'
 );
+
+$hook['system'] = array(
+    'function' => 'running_system',
+    'filename' => 'auth_constants.php',
+    'filepath' => 'third_party/community_auth/hooks'
+);

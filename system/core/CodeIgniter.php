@@ -176,6 +176,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 	$EXT->call_hook('pre_system');
 
+	$EXT->call_hook('system');
+	
+
+
 /*
  * ------------------------------------------------------
  * Important charset-related stuff
